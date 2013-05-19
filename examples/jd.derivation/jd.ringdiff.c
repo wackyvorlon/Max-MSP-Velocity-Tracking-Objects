@@ -66,7 +66,7 @@ int main(void)
     
     derivation_class = c;
 
-	post("jd.derivation v1.0 - Josh Dickinson - 2012");
+	post("jd.derivation v1.0.1 - Josh Dickinson - 2012, Paul Anderson - 2013");
 	return 0;
     
 }
@@ -82,7 +82,7 @@ void derivation_assist(t_derivation *x, void *b, long m, long a, char *s)
             sprintf(s, "jerk bang threshold");
         }
         if(a == 2){
-            sprintf(s, "accelleration bang threshold");
+            sprintf(s, "acceleration bang threshold");
         }
         if(a == 1){
             sprintf(s, "velocity bang threshold");
