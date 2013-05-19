@@ -5,6 +5,8 @@
     joshua dickinson - joshuadaviddickinson@gmail	
 */
 
+/* Modifications by Paul Anderson */
+
 #include "ext.h"							// standard Max include, always required
 #include "ext_obex.h"						// required for new style Max object
 
